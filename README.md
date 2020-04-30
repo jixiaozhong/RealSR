@@ -32,5 +32,5 @@ If you are interested in this work, please cite
 
 ![1](figures/0935.png)
 
-## Codes
+## Models and Training Codes
 Release soon.
