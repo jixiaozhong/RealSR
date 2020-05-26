@@ -14,7 +14,7 @@ Our solution is the **winner of CVPR NTIRE 2020 Challenge on Real-World Super-Re
 - Add [DF2K-JPEG](https://drive.google.com/open?id=1w8QbCLM6g-MMVlIhRERtSXrP-Dh7cPhm) Model.
 - [Executable files](https://drive.google.com/open?id=1-FZPyMtuDfEnAPgSBfePYhv0NorznDPU) based on [ncnn](https://github.com/Tencent/ncnn) are available. Test your own images on windows/linux/macos. More details refer to [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan)
     - Usage - ```./realsr-ncnn-vulkan -i in.jpg -o out.png```
-    - ```-x``` - use ensemble
+    - ```-x``` - use ensemble 
     - ```-g 0``` - select gpu id.
     
 ## Introduction
