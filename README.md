@@ -11,8 +11,12 @@ Our solution is the **winner of CVPR NTIRE 2020 Challenge on Real-World Super-Re
 (*Official PyTorch Implementation*)
 
 ## Update - May 26, 2020
-- Add [DF2K-JPEG](https://drive.google.com/open?id=1w8QbCLM6g-MMVlIhRERtSXrP-Dh7cPhm) Model
-
+- Add [DF2K-JPEG](https://drive.google.com/open?id=1w8QbCLM6g-MMVlIhRERtSXrP-Dh7cPhm) Model.
+- [Executable files](https://drive.google.com/open?id=1-FZPyMtuDfEnAPgSBfePYhv0NorznDPU) based on [ncnn](https://github.com/Tencent/ncnn) are available. Test your own images on windows/linux/macos.
+    - Usage - ```./realsr-ncnn-vulkan -i in.jpg -o out.png```
+    - ```-x``` - use ensemble
+    - ```-g 0``` - select gpu id.
+    
 ## Introduction
 
 Recent state-of-the-art super-resolution methods have achieved impressive performance on ideal datasets regardless of blur and noise. However, these methods always fail in real-world image super-resolution, since most of them adopt simple bicubic downsampling from high-quality images to construct Low-Resolution (LR) and High-Resolution (HR) pairs for training which may lose track of frequency-related details. To address this issue, we focus on designing a novel degradation framework for real-world images by estimating various blur kernels as well as real noise distributions. Based on our novel degradation framework, we can acquire LR images sharing a common domain with real-world images. Then, we propose a real-world super-resolution model aiming at better perception. Extensive experiments on synthetic noise data and real-world images demonstrate that our method outperforms the state-of-the-art methods, resulting in lower noise and better visual quality. In addition, our method is the winner of NTIRE 2020 Challenge on both tracks of Real-World Super-Resolution, which significantly outperforms other competitors by large margins. 
