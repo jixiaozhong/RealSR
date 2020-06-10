@@ -1,6 +1,6 @@
 # RealSR 
 
-Real-World Super-Resolution via Kernel Estimation and Noise Injection (CVPRW 2020)
+Real-World Super-Resolution via Kernel Estimation and Noise Injection
 
 Xiaozhong Ji, Yun Cao, Ying Tai, Chengjie Wang, Jilin Li, and Feiyue Huang
 
@@ -23,14 +23,15 @@ Recent state-of-the-art super-resolution methods have achieved impressive perfor
 
 ![RealSR](figures/arch.png)  
 
-If you are interested in this work, please cite our paper
+If you are interested in this work, please cite our [paper](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Ji_Real-World_Super-Resolution_via_Kernel_Estimation_and_Noise_Injection_CVPRW_2020_paper.pdf)
 
-    @article{Ji2020realsr,
-        title={Real World Super-Resolution via Kernel Estimation and Noise Injection},
-        author={Xiaozhong Ji, Yun Cao, Ying Tai, Chengjie Wang, Jilin Li, and Feiyue Huang},
-        journal={CVPR Workshops},
-        year={2020},
-    }
+    @InProceedings{Ji_2020_CVPR_Workshops,
+                   author = {Ji, Xiaozhong and Cao, Yun and Tai, Ying and Wang, Chengjie and Li, Jilin and Huang, Feiyue},
+                   title = {Real-World Super-Resolution via Kernel Estimation and Noise Injection},
+                   booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+                   month = {June},
+                   year = {2020}
+         }
 
 and challenge report [NTIRE 2020 Challenge on Real-World Image Super-Resolution: Methods and Results](https://arxiv.org/pdf/2005.01996.pdf)
 
